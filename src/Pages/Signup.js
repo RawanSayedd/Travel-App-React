@@ -16,7 +16,6 @@ function Signup() {
         btnClass="hide"
       />
       <SignupForm />
-      <Footer />
     </div>
   );
 }

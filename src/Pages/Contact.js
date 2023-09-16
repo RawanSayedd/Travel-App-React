@@ -16,7 +16,6 @@ function Contact() {
         btnClass="hide"
       />
       <ContactForm />
-      <Footer />
     </div>
   );
 }

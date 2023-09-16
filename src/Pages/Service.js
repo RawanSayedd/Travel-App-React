@@ -15,7 +15,6 @@ function Service() {
         btnClass="hide"
       />
       <Trip />
-      <Footer />
     </div>
   );
 }

@@ -26,8 +26,6 @@ function About() {
         header="Our Vision"
         text="To saw the seeds of par-excellenxe services with customers centric approach and reap the trust of worldwide clients "
       />
-
-      <Footer />
     </div>
   );
 }
