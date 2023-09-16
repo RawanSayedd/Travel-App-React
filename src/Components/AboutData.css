@@ -1,0 +1,16 @@
+.about-data {
+  margin: 4rem 6rem;
+  text-align: start;
+}
+.about-data h2 {
+  font-size: 2rem;
+  padding-bottom: 16px;
+}
+.about-data p {
+  padding-bottom: 16px;
+}
+@media screen and (max-width: 850px) {
+  .about-data {
+    margin: 4rem 2rem;
+  }
+}
