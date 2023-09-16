@@ -4,12 +4,15 @@ import Service from "./Pages/Service";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Signup from "./Pages/Signup";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/about" element={<About />}></Route>
@@ -17,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/signup" element={<Signup />}></Route>
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
